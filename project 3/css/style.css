@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    background-image: url(../images/image.jpeg); 
+    background-size: cover;  
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    color: rgb(238, 4, 4);
+}
+
+.container {
+    display: flex;
+    color: gold;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;      
+    height: 50vh;           
+    text-align: center;         
+  }
+
+
+.container1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    margin: 30px auto;
+    width: 90%;
+    position: relative;
+}
+.profile-photo {
+    position: absolute;
+    left: 20px; 
+    top: 30px;
+}
+.profile-photo img {
+    width: 180px;
+    height: auto;
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.profile-card {
+    background: #3d67cc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+.profile-card h2 {
+    color: gold;
+    margin-bottom: 20px;
+}
+.profile-card p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: white;
+}
+
+
+.objective-section {
+    flex: 1;
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.objective-box {
+    background: #1404f3ab; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: justify;
+}
+.objective-box p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.container2 {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: 40px auto;
+    gap: 30px;
+}
+.education-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.edu-box {
+    background: #3d67cc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.edu-box h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+.edu-box p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: white;
+}
+.image-section {
+    flex: 1;
+    text-align: center;
+}
+.image-section img {
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.graduation-section {
+    width: 60%;
+    margin: 20px auto;
+}
+.graduation-section .edu-box {
+    background: #3d67cc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+.container3 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+.skill-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+    background: #3d67cc;
+    border-radius: 5px;
+}
+.skill-section h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: purple;
+}
+
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    ; 
+    margin: 20px auto;
+}
+.block {
+    display: inline-block; 
+    margin: 15px;
+    max-width: 600px; 
+}
+.block-heading {
+    background: #4CAF50;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+.block-content {
+    background: #3d67cc;
+    padding: 20px;
+    color: white;
+}
+
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
